@@ -5,67 +5,78 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akademnashr</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <!-- Side section -->
-  <header>
+  <header class="header-part">
     <a href="index.html">
       <img src="img/logo.svg" alt="Akademnashr logo" width="227" height="60">
     </a>
       <nav>
         <ul>
-          <li><a href="#">Bosh sahifa</a></li>
-          <li><a href="#">KItoblar</a></li>
-          <li><a href="#">Aksiyalar</a></li>
-          <li><a href="#">Kontaktlar</a></li>
+          <li><a class="sitenav-link" href="#">Bosh sahifa</a></li>
+          <li><a class="sitenav-link" href="#">KItoblar</a></li>
+          <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
+          <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
         </ul>
       </nav>
-      <a href="">Ro'yhatdan o'tish</a>
+      <a class="main-button" href="">Ro'yhatdan o'tish</a>
   </header>
 
   <!-- /Side section -->
 
   <!-- Hero section  -->
   <main>
-    <section>
-        <div>
-          <h2>Pythonda dasturlash asoslari</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure soluta odit odio officia, quam pariatur consequatur? Qui blanditiis magnam iusto animi, inventore est laudantium, nihil, iste dicta harum exercitationem molestias!</p>
-          <a href="#">Buyurtma berish</a>
+    <section class="hero-section">
+        <div class="hero-content">
+          <hr class="hero-line">
+          <h2 class="hero-heading">Pythonda dasturlash asoslari</h2>
+          <p class="hero-text"></p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure soluta odit odio officia, quam pariatur consequatur? Qui blanditiis magnam iusto animi, inventore est laudantium, nihil, iste dicta harum exercitationem molestias!</p>
+          <a class="main-button" href="#">Buyurtma berish</a>
         </div>
-       <img src="img/python-book.jpg" alt="Python rasmi" width="510" height="510" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x">
+       <img  class="hero-img" src="img/python-book.jpg" alt="Python rasmi" width="510" height="510" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x">
     </section>
     <!-- /Hero section  -->
-      <section>
-        <div>
-          <p>Blur line</p>
-          <h2>Nega aynan Akademnashr?</h2>
-        </div>
+
+    <!-- Features  -->
+      <section class="features">
+          <hr class="orange-line">
+          <h2 class="features-heading">Nega aynan Akademnashr?</h2>
         <div>
           <ul>
-            <li>
-            <img src="img/Icon.svg" alt="Kursorda click qilish ikonkasi" width="56" height="56">
-              <h3>Oson buyurtma berish</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero eligendi consectetur, quod nulla doloribus.</p>
+            <li class="feature">
+            <div class="features-icon">
+              <img src="img/Icon.svg" alt="Kursorda click qilish ikonkasi" width="56" height="56">
+            </div>
+              <h3 class="features-title">Oson buyurtma berish</h3>
+              <p class="feature-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero eligendi consectetur, quod nulla doloribus.</p>
             </li>
-            <li>
-             <img src="img/icon2/Icon.svg" alt="Kursorda click qilish ikonkasi"  width="56" height="56">
-              <h3>Eng sara kitoblar</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero eligendi consectetur, quod nulla doloribus.</p>
+            <li class="feature">
+             <div class="features-icon">
+              <img src="img/icon2/Icon.svg" alt="Kursorda click qilish ikonkasi"  width="56" height="56">
+            </div>
+              <h3 class="features-title">Eng sara kitoblar</h3>
+              <p class="feature-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero eligendi consectetur, quod nulla doloribus.</p>
             </li>
-            <li>
-             <img src="img/icon3/Icon.svg" alt="Kursorda click qilish ikonkasi"  width="56" height="56">
-              <h3>Tez yetkazib berish</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero eligendi consectetur, quod nulla doloribus.</p>
+            <li class="feature">
+             <div class="features-icon">
+              <img src="img/icon3/Icon.svg" alt="Kursorda click qilish ikonkasi"  width="56" height="56">
+            </div>
+              <h3 class="features-title">Tez yetkazib berish</h3>
+              <p class="feature-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero eligendi consectetur, quod nulla doloribus.</p>
             </li>
           </ul>
         </div>
     </section>
-    <section>
-        <div>
-          <h2>Bolalar kitoblari uchun ajoyib aksiya?</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore in, ducimus rem officiis inventore natus.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque dolorem culpa atque laborum quaerat.</p>
+
+    <!-- Sale section  -->
+
+    <section class="promo">
+        <div class="promo-content">
+          <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya?</h2>
+          <p class="promo-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore in, ducimus rem officiis inventore natus.</p>
+          <p class="promo-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque dolorem culpa atque laborum quaerat.</p>
           <a href="#">Buyurtma berish</a>
         </div>
         <img src="img/sale-img.jpg" alt="Kitoblar to'plami" width="400" height="400" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x">
