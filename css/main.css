@@ -3,6 +3,10 @@
 
 }
 
+.sitenav-list {
+  list-style: none;
+}
+
 .sitenav-link {
   font-weight: 500;
   font-size: 13px;
@@ -98,4 +102,35 @@
 .promo-text {
   font-size: 16px;
   line-height: 1.5;
+}
+
+.promo-img {
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+}
+
+.footer-section {
+  background-color: #F8F8F8;
+
+}
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-line {
+  height: 2px;
+  background-color: rgba(37, 36, 32, 0.5);
+
+}
+.footer-section-links {
+  width: 224px;
+}
+
+.footer-section-links a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #252420;
 }
