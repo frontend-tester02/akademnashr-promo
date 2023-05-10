@@ -61,6 +61,10 @@
   letter-spacing: 0.5px;
 }
 
+.feature-lists {
+  list-style: none;
+}
+
 .feature {
   width: 340px;
 }
