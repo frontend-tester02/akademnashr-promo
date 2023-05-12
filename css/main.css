@@ -6,11 +6,18 @@
 }
 
 .header-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #fff;
 
 }
-
+.site-header-actions {
+  display: flex;
+  align-items: center;
+}
 .sitenav-list {
+  display: flex;
   list-style: none;
 }
 
@@ -32,6 +39,9 @@
   text-decoration: none;
 }
 .hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
 }
@@ -65,6 +75,8 @@
 }
 
 .feature-lists {
+  display: flex;
+justify-content: space-between;
   list-style: none;
 }
 
@@ -87,6 +99,9 @@
 
 
 .promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
 }
@@ -118,14 +133,27 @@ font-weight: bold;
   background-color: #F8F8F8;
 
 }
+
+.site-footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .footer-section ul {
   list-style: none;
+}
+.footer-link {
+  display: flex;
+  align-items: center;
 }
 
 .footer-line {
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
 
+}
+.site-footer-bottom {
+  display: flex;
 }
 .footer-section-links {
   width: 224px;
