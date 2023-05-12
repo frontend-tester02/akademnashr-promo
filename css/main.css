@@ -12,6 +12,16 @@
   background-color: #fff;
 
 }
+.logo-link {
+  transition: opacity 0.4s ease;
+
+}
+.logo-link:hover {
+  opacity: 0.8;
+}
+.logo-link:active {
+  opacity: 0.6;
+}
 .site-header-actions {
   display: flex;
   align-items: center;
@@ -29,6 +39,14 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  transition: color 0.4 ease,
+  opacity 0.4s ease;
+}
+.sitenav-link:hover {
+  color: #FF7500;
+}
+.sitenav-link:active {
+  opacity: 0.6;
 }
 
 .main-button {
@@ -37,6 +55,14 @@
   background-color: #FF7500;
   color: #fff;
   text-decoration: none;
+  transition: opacity 0.4s ease;
+}
+
+.main-button:hover {
+  opacity: 0.8;
+}
+.main-button:active {
+  opacity: 0.6;
 }
 .hero-section {
   display: flex;
@@ -147,6 +173,15 @@ font-weight: bold;
   align-items: center;
 }
 
+.footer-link a {
+  color: #252420;
+}
+.footer-link a:hover {
+  color: #FF7500;
+}
+.footer-link a:active {
+  opacity: 0.6;
+}
 .footer-line {
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
@@ -164,4 +199,12 @@ font-weight: bold;
   font-weight: 400;
   text-decoration: none;
   color: #252420;
+}
+
+.footer-section-links a:hover {
+  color: #FF7500;
+}
+
+.footer-section-links a:focus {
+  opacity: 0.6;
 }
