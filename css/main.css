@@ -5,6 +5,11 @@
   letter-spacing: 0.5px;
 }
 
+*:focus {
+  outline: 2px dotted #ff7500;
+  outline-offset: 3px;
+}
+
 .header-part {
   display: flex;
   justify-content: space-between;
@@ -205,6 +210,6 @@ font-weight: bold;
   color: #FF7500;
 }
 
-.footer-section-links a:focus {
+.footer-section-links a:active {
   opacity: 0.6;
 }
