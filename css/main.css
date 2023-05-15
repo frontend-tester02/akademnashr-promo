@@ -14,7 +14,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 5px solid #ff7500;
   background-color: #fff;
+
 
 }
 .logo-link {
@@ -37,6 +41,7 @@
 }
 
 .sitenav-link {
+  padding: 0;
   font-weight: 500;
   font-size: 13px;
   line-height: 15px;
@@ -55,11 +60,15 @@
 }
 
 .main-button {
+  display: inline-block;
+  padding: 12px 24px;
   font-size: 13px;
   line-height: 15px;
+  font-weight: bold;
   background-color: #FF7500;
   color: #fff;
   text-decoration: none;
+  border-radius: 4px;
   transition: opacity 0.4s ease;
 }
 
@@ -73,16 +82,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #252420;
   color: #fff;
 }
 
 .hero-content {
   width: 390px;
+
 }
-.hero-line, .orange-line{
+.orange-line{
   width: 80px;
   height: 3px;
+  border: none;
   background-color: #FF7500;
 }
 .hero-heading {
@@ -95,8 +108,13 @@
 .hero-img {
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 
+.features {
+ padding-top: 210px;
+ padding-bottom: 210px;
+}
 .features-heading {
   width: 440px;
   font-size: 72px;
@@ -107,7 +125,8 @@
 
 .feature-lists {
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
+  padding: 0;
   list-style: none;
 }
 
@@ -116,8 +135,12 @@ justify-content: space-between;
 }
 
 .features-icon {
+  display: flex;
+  justify-content: center;
+  align-items: centers;
   width: 100px;
   height: 100px;
+  border-radius: 50%;
   background-color: rgba(255, 117, 0, 0.2);
 }
 
@@ -128,17 +151,23 @@ justify-content: space-between;
 
 }
 
+.promo-section {
+  padding-left: 170px;
+  padding-right: 170px;
+}
 
 .promo {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 12px;
   background-color: #252420;
   color: #fff;
 }
 
 .promo-content {
   width: 440px;
+
 
 }
 
@@ -157,10 +186,14 @@ font-weight: bold;
 .promo-img {
   width: 440px;
   height: 440px;
+  border-radius: 12px;
+
   object-fit: cover;
 }
 
 .footer-section {
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: #F8F8F8;
 
 }
@@ -176,6 +209,7 @@ font-weight: bold;
 .footer-link {
   display: flex;
   align-items: center;
+  padding: 0;
 }
 
 .footer-link a {
@@ -189,14 +223,18 @@ font-weight: bold;
 }
 .footer-line {
   height: 2px;
+  border: 0;
   background-color: rgba(37, 36, 32, 0.5);
 
 }
 .site-footer-bottom {
   display: flex;
+
+
 }
 .footer-section-links {
   width: 224px;
+  padding: 0;
   line-height: 19px;
 }
 
