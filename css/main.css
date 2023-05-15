@@ -276,6 +276,9 @@ font-weight: bold;
   opacity: 0.6;
 }
 
+.footer-link svg {
+  display: block;
+}
 .footer-line {
   margin-top: 40px;
   margin-bottom: 64px;
@@ -315,8 +318,4 @@ font-weight: bold;
 
 .footer-section-links a:active {
   opacity: 0.6;
-}
-
-.footer-section-links svg {
-  display: block;
 }
