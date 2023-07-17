@@ -1,8 +1,22 @@
-* {
-  box-sizing: border-box;
+:root {
+  --accent-color:#ff7500;
+  --font-family-text:"Roboto Condensed", "Arial", sans-serif;
+}
+
+html {
+  box-sizing:border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 .body {
+  display: flex;
+  flex-direction: column;
   font-family: 'Roboto', "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -10,7 +24,7 @@
 }
 
 *:focus {
-  outline: 2px dotted #ff7500;
+  outline: 2px dotted var(--accent-color);
   outline-offset: 3px;
 }
 
@@ -26,7 +40,7 @@
 .header-part {
   padding-top: 16px;
   padding-bottom: 16px;
-  border-top: 5px solid #ff7500;
+  border-top: 5px solid var(--accent-color);
   background-color: #fff;
 }
 .header-container {
@@ -80,7 +94,7 @@
   opacity 0.4s ease;
 }
 .sitenav-link:hover {
-  color: #FF7500;
+  color: var(--accent-color);
 }
 .sitenav-link:active {
   opacity: 0.6;
@@ -92,7 +106,7 @@
   font-size: 13px;
   line-height: 15px;
   font-weight: bold;
-  background-color: #FF7500;
+  background-color: var(--accent-color);
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
@@ -105,6 +119,8 @@
 .main-button:active {
   opacity: 0.6;
 }
+
+
 .hero-section {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -127,12 +143,12 @@
   border: none;
   margin: 0;
   margin-bottom: 40px;
-  background-color: #FF7500;
+  background-color: var(--accent-color);
 }
 .hero-heading {
   margin-top: 0;
   margin-bottom: 24px;
-  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-family: var(--font-family-text);
   font-size: 40px;
   line-height: 1.2;
 }
@@ -160,7 +176,7 @@
   margin-top: 0;
   margin-bottom: 72px;
   font-size: 72px;
-  font-family: "Roboto Condensed", "Arial", sans-serif ;
+  font-family: var(--font-family-text);
   line-height: 1.2;
 }
 
@@ -196,7 +212,7 @@
   margin-bottom: 12px;
   font-size: 24px;
   line-height: 1.2;
-  font-family: "Roboto Condensed", "Arial", sans-serif ;
+  font-family: var(--font-family-text) ;
 
 }
 
@@ -230,7 +246,7 @@
   margin-bottom: 24px;
   font-size: 40px;
   line-height: 48px;
-  font-family: "Roboto Condensed", "Arial", sans-serif ;
+  font-family: var(--font-family-text) ;
 }
 
 .promo-wrapper {
@@ -247,7 +263,7 @@
 }
 
 .strong-text {
-color: #FF7500;
+color: var(--accent-color);
 font-weight: bold;
 }
 
@@ -296,7 +312,7 @@ font-weight: bold;
   color: #252420;
 }
 .footer-link a:hover {
-  color: #FF7500;
+  color: var(--accent-color);
 }
 
 .footer-link a:active {
@@ -347,7 +363,7 @@ font-weight: bold;
 }
 
 .footer-section-links a:hover {
-  color: #FF7500;
+  color: var(--accent-color);
 }
 
 .footer-section-links a:active {
