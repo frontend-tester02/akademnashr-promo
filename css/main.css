@@ -395,6 +395,9 @@ font-weight: bold;
     position: static;
     margin-right: 30px;
   }
+
+
+
 }
 
 
@@ -402,6 +405,15 @@ font-weight: bold;
   .feature {
     width: 30%;
     margin-right: 5%;
+  }
+
+  .promo {
+    padding-top: 0;
+  }
+
+  .promo-img {
+    width: 380px;
+    height: 380px;
   }
 
   .site-footer__links {
@@ -431,6 +443,46 @@ font-weight: bold;
     padding-top: 150px;
     padding-bottom: 150px;
   }
+
+  .promo-content {
+    margin-right: 36px;
+  }
+
+  .promo-img {
+    position: static
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .promo-inner {
+    align-items: flex-start;
+  }
+
+  .promo-img {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+@media only screen and (max-width:840px) {
+
+  .promo-inner {
+    flex-direction: column;
+
+  }
+
+  .promo-content {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+
+  .promo-img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 22px;
+  }
 }
 
 @media only screen and (max-width:800px) {
@@ -439,7 +491,11 @@ font-weight: bold;
     height: 300px;
   }
 
+
+
 }
+
+
 @media only screen and (max-width:760px)  {
   .hero-container {
     flex-direction: column-reverse;
@@ -473,6 +529,16 @@ font-weight: bold;
   .feature-lists {
     flex-wrap: wrap;
   }
+
+  .promo {
+    padding-bottom: 0;
+  }
+  .promo-inner {
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 0;
+  }
+
 
   .site-footer__bottom {
     flex-wrap: wrap;
@@ -515,6 +581,11 @@ font-weight: bold;
   .features-icon {
     margin-bottom: 16px;
   }
+
+  .promo-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media only screen and (max-width:600px) {
@@ -533,6 +604,7 @@ font-weight: bold;
 }
 
 @media only screen and (max-width:530px) {
+
   .orange-line {
     margin-left: auto;
     margin-right: auto;
@@ -553,6 +625,8 @@ font-weight: bold;
     width: 100%;
     margin-right: 0;
   }
+
+
 
   .site-footer {
     padding-top: 36px;
@@ -586,6 +660,10 @@ font-weight: bold;
     font-size: 36px;
   }
 
+  .promo-img {
+    width: 100%;
+    height: 300px;
+  }
 
   .site-footer__links {
     width: 100%;
