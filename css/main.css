@@ -112,6 +112,7 @@ html {
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
+  text-align: center;
   transition: opacity 0.4s ease;
 }
 
@@ -424,6 +425,16 @@ font-weight: bold;
 }
 
 @media only screen and (max-width:1000px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  .site-header-actions {
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 12px;
+
+  }
   .hero-content {
     flex-grow: 1;
     margin-right: 60px;
@@ -497,6 +508,20 @@ font-weight: bold;
 
 
 @media only screen and (max-width:760px)  {
+  .site-header-actions {
+    flex-direction: column;
+  }
+
+  .site-header-actions nav {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .sitenav-list {
+    margin-right: 0;
+    justify-content: center;
+  }
+
   .hero-container {
     flex-direction: column-reverse;
   }
@@ -604,6 +629,15 @@ font-weight: bold;
 }
 
 @media only screen and (max-width:530px) {
+  .sitenav-list {
+    flex-wrap: wrap;
+  }
+
+  .sitenav-item {
+    width: 50%;
+    margin-right: 0;
+    text-align: center;
+  }
 
   .orange-line {
     margin-left: auto;
@@ -675,6 +709,23 @@ font-weight: bold;
   }
 
   .site-footer__links:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+@media only screen and (max-width: 350px) {
+  .logo-link img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .sitenav-item {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .sitenav-item:last-child {
     margin-bottom: 0;
   }
 }
